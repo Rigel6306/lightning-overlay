@@ -1,0 +1,14 @@
+{
+  "name": "lightning-overlay",
+  "version": "1.0.0",
+    "license": "MIT",
+   "author": "charitha/rigel6306",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepack": "npm run build",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "type": "module"
+}
