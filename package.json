@@ -1,6 +1,6 @@
 {
   "name": "lightning-overlay",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "author": "charitha/rigel6306",
   "description": "Procedural, physically inspired lightning for React and Next apps. Canvas 2D, three strike types, Web Audio thunder, no runtime dependencies.",
@@ -12,10 +12,9 @@
     "build": "vite build"
   },
   "type": "module",
-   "files": [
+  "files": [
     "dist"
   ],
-
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -24,11 +23,11 @@
     }
   },
   "dependencies": {
-     "react": "^18.0.0 || ^19.0.0",
+    "react": "^18.0.0 || ^19.0.0",
     "react-dom": "^18.0.0 || ^19.0.0"
   },
   "devDependencies": {
-   "@types/node": "^26.6.6",
+    "@types/node": "^26.6.6",
     "@types/react": "^19.3.0",
     "react": "^19.3.1",
     "react-dom": "^19.3.1",
@@ -37,29 +36,29 @@
     "vite-plugin-dts": "^5.1.2"
   },
   "keywords": [
-  "lightning",
-  "lightning-effect",
-  "lightning-overlay",
-  "thunder",
-  "thunderstorm",
-  "storm",
-  "weather-effect",
-  "canvas",
-  "canvas-2d",
-  "procedural",
-  "procedural-animation",
-  "particle-effects",
-  "visual-effects",
-  "vfx",
-  "animation",
-  "react",
-  "react-component",
-  "nextjs",
-  "hero-section",
-  "background-effect",
-  "web-audio",
-  "sound-effects",
-  "typescript",
-  "zero-dependencies"
-]
+    "lightning",
+    "lightning-effect",
+    "lightning-overlay",
+    "thunder",
+    "thunderstorm",
+    "storm",
+    "weather-effect",
+    "canvas",
+    "canvas-2d",
+    "procedural",
+    "procedural-animation",
+    "particle-effects",
+    "visual-effects",
+    "vfx",
+    "animation",
+    "react",
+    "react-component",
+    "nextjs",
+    "hero-section",
+    "background-effect",
+    "web-audio",
+    "sound-effects",
+    "typescript",
+    "zero-dependencies"
+  ]
 }
