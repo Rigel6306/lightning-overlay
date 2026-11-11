@@ -1,4 +1,4 @@
-import type { VisibilityInput } from "../types";
+import type { VisibilityInput } from "../types/types";
 
 /** Normalise a number / getter / `{ get() }` into a plain getter. */
 export const toVisibilityGetter = (input: VisibilityInput | undefined): (() => number) => {

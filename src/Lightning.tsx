@@ -14,7 +14,7 @@ import type {
   StrikeInfo,
   StrikeKind,
   VisibilityInput,
-} from "./types";
+} from "./types/types";
 
 export type LightningProps = LightningOptions & {
   /**

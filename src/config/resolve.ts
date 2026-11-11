@@ -7,7 +7,7 @@ import type {
   ResolvedOptions,
   ResolvedPalette,
   RGB,
-} from "../types";
+} from "../types/types";
 import { parseColor, rgbaPrefix } from "../helpers/color";
 import { DEFAULT_FRINGE, DEFAULT_OPTIONS, DEFAULT_PALETTE } from "./defaults";
 import { PALETTES } from "./palettes";

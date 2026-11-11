@@ -333,7 +333,7 @@ export interface Strike {
 }
 
 export interface BuildContext {
-  rng: import("./helpers/random").Rng;
+  rng: import("../helpers/random").Rng;
   w: number;
   h: number;
   now: number;

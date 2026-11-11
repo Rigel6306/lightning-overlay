@@ -1,4 +1,4 @@
-import type { BranchConfig, Channel } from "../types";
+import type { BranchConfig, Channel } from "../types/types";
 import type { Rng } from "../helpers/random";
 import { jaggedPath } from "../helpers/geometry";
 import { makeChannel } from "./channel";

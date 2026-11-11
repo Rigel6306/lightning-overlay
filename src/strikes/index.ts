@@ -1,5 +1,5 @@
-import type { BuildContext, Strike, StrikeKind } from "../types";
-import { STRIKE_KINDS } from "../types";
+import type { BuildContext, Strike, StrikeKind } from "../types/types";
+import { STRIKE_KINDS } from "../types/types";
 import type { Rng } from "../helpers/random";
 import { buildGround } from "./ground";
 import { buildCrawler } from "./crawler";

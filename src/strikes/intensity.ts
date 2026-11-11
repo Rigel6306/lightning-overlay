@@ -1,4 +1,4 @@
-import type { Strike } from "../types";
+import type { Strike } from "../types/types";
 
 /** Flash intensity of a strike `t` ms after it was born (0..1.4). */
 export const intensityAt = (s: Strike, t: number): number => {

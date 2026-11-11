@@ -1,4 +1,4 @@
-import type { ColorInput, RGB } from "../types";
+import type { ColorInput, RGB } from "../types/types";
 import { clamp01 } from "./math";
 
 const byte = (n: number) => Math.max(0, Math.min(255, Math.round(n)));

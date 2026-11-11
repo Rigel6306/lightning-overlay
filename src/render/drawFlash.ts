@@ -1,4 +1,4 @@
-import type { Strike } from "../types";
+import type { Strike } from "../types/types";
 import { clamp01 } from "../helpers/math";
 import { withAlpha } from "../helpers/color";
 import type { RenderEnv } from "./env";

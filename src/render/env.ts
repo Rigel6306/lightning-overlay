@@ -1,4 +1,4 @@
-import type { QualityProfile, ResolvedOptions } from "../types";
+import type { QualityProfile, ResolvedOptions } from "../types/types";
 import type { Rng } from "../helpers/random";
 import type { SpriteCache } from "./sprites";
 import type { JobBuffer, Scratch } from "./strokes";

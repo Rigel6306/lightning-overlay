@@ -5,7 +5,7 @@ import type {
   QualityProfile,
   RGB,
   PaletteKey,
-} from "../types";
+} from "../types/types";
 
 /**
  * Real lightning photographs as a blown-out white core wrapped in a pale

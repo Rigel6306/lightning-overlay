@@ -1,4 +1,4 @@
-import type { Channel, Strike } from "../types";
+import type { Channel, Strike } from "../types/types";
 import { clamp, clamp01 } from "../helpers/math";
 import { withAlpha } from "../helpers/color";
 import type { RenderEnv } from "./env";

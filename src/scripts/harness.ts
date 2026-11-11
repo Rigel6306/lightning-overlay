@@ -8,7 +8,7 @@
  */
 import { LightningEngine } from "../engine/LightningEngine";
 import { createRng } from "../helpers/random";
-import type { LightningOptions, StrikeKind } from "../types";
+import type { LightningOptions, StrikeKind } from "../types/types";
 
 export interface Segment {
   options?: LightningOptions;

@@ -1,4 +1,4 @@
-import type { Channel } from "../types";
+import type { Channel } from "../types/types";
 
 export type ChannelMeta = Omit<Channel, "pts" | "cum" | "n" | "total">;
 

@@ -1,4 +1,4 @@
-import type { ResolvedPalette } from "../types";
+import type { ResolvedPalette } from "../types/types";
 import { withAlpha } from "../helpers/color";
 
 type Stop = readonly [offset: number, color: string];

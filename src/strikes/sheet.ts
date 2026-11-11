@@ -1,4 +1,4 @@
-import type { BuildContext, Cloud, Pulse, Strike } from "../types";
+import type { BuildContext, Cloud, Pulse, Strike } from "../types/types";
 import { makeCloud } from "./clouds";
 
 /** Bolt hidden inside the clouds: only the sky lights up, irregularly. */

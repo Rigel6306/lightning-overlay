@@ -1,14 +1,40 @@
 {
   "name": "lightning-overlay",
   "version": "1.0.0",
-    "license": "MIT",
-   "author": "charitha/rigel6306",
+  "license": "MIT",
+  "author": "charitha/rigel6306",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "prepack": "npm run build",
     "build": "vite build"
   },
   "keywords": [],
-  "type": "module"
+  "type": "module",
+   "files": [
+    "dist"
+  ],
+
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "dependencies": {
+     "react": "^18.0.0 || ^19.0.0",
+    "react-dom": "^18.0.0 || ^19.0.0"
+  },
+  "devDependencies": {
+   "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "typescript": "^6.0.3",
+    "vite": "^8.3.6",
+    "vite-plugin-dts": "^5.1.2"
+  }
 }

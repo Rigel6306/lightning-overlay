@@ -17,7 +17,7 @@ export { PALETTES } from "./config/palettes";
 export { resolveOptions, resolvePalette } from "./config/resolve";
 
 // Types
-export { STRIKE_KINDS } from "./types";
+export { STRIKE_KINDS } from "./types/types";
 export type {
   BranchConfig,
   ColorInput,
@@ -42,4 +42,4 @@ export type {
   StrikeKind,
   StrokePass,
   VisibilityInput,
-} from "./types";
+} from "./types/types";

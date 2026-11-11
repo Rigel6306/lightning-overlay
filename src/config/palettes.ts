@@ -1,4 +1,4 @@
-import type { PaletteKey, PaletteName, RGB } from "../types";
+import type { PaletteKey, PaletteName, RGB } from "../types/types";
 import { DEFAULT_PALETTE } from "./defaults";
 
 type PaletteRGB = Record<PaletteKey, RGB>;

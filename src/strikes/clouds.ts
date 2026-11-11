@@ -1,4 +1,4 @@
-import type { Cloud } from "../types";
+import type { Cloud } from "../types/types";
 import type { Rng } from "../helpers/random";
 
 /** A cloud blob lit from inside; `f` / `ph` give it its own flicker phase. */

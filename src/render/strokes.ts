@@ -1,4 +1,4 @@
-import type { Channel } from "../types";
+import type { Channel } from "../types/types";
 import type { Rng } from "../helpers/random";
 
 /* -------------------------------------------------------------------------- */

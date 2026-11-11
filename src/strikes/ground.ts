@@ -1,4 +1,4 @@
-import type { BuildContext, Channel, Cloud, Pulse, Strike } from "../types";
+import type { BuildContext, Channel, Cloud, Pulse, Strike } from "../types/types";
 import { jaggedPath } from "../helpers/geometry";
 import { makeChannel } from "./channel";
 import { makeCloud } from "./clouds";
