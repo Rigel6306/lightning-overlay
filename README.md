@@ -4,7 +4,7 @@ Procedural, physically-inspired lightning for hero sections. Pure Canvas 2D,
 no images, no WebGL, no runtime dependencies except React (and the React
 wrapper is optional — the core engine is framework-free).
 
-![A few seconds of Lightning](./docs/gifs/storm.gif)
+![A few seconds of Lightning](./docs/storm.gif)
 
 - **Three kinds of strikes**, each with its own behaviour and sound
   (cloud-to-ground, crawling cloud-to-cloud, and hidden "sheet" lightning).
@@ -121,7 +121,7 @@ dart-leader restrikes. Channels thin toward their tips, side branches fork
 mostly near the bottom, and the channel "ribbons" sideways in the wind
 between restrikes. Often paired with the heavy thunder clap.
 
-![ground strike](./docs/gifs/ground.gif)
+![ground strike](./docs/ground.gif)
 
 ### `crawler` — cloud-to-cloud / intra-cloud
 
@@ -130,14 +130,14 @@ point, with many short branches (some hanging like tendrils). Sometimes it
 drops a long leg out of the cloud base. It shimmers through a run of softer,
 closely spaced pulses.
 
-![crawler strike](./docs/gifs/crawler.gif)
+![crawler strike](./docs/crawler.gif)
 
 ### `sheet` — hidden in the clouds
 
 No visible channel: the bolt is buried in the cloud deck, so only the sky and
 the clouds flicker irregularly around a hot spot. Quiet, distant, atmospheric.
 
-![sheet lightning](./docs/gifs/sheet.gif)
+![sheet lightning](./docs/sheet.gif)
 
 ---
 
@@ -281,7 +281,7 @@ the default blue-white look).
 <Lightning palette={{ outer: "#ff4fd8", flash: "#ff7be5", cloud: [200, 70, 190] }} />
 ```
 
-![palette presets](./docs/gifs/palettes.gif)
+![palette presets](./docs/palettes.gif)
 
 | Preset | Look |
 | --- | --- |
@@ -293,7 +293,7 @@ the default blue-white look).
 
 Palette keys: `outer` (wide halo), `mid` (ionised air), `inner` (hot plasma),
 `core` (blown-out centre), `flash` (sky illumination), `cloud` (light scattered
-inside clouds). The presets live in [`config/palettes.ts`](./config/palettes.ts).
+inside clouds). The presets live in [`config/palettes.ts`](./src/config/palettes.ts).
 
 ---
 
@@ -301,7 +301,7 @@ inside clouds). The presets live in [`config/palettes.ts`](./config/palettes.ts)
 
 The same strike (same `seed`) with different knobs:
 
-![tuning options](./docs/gifs/tuning.gif)
+![tuning options](./docs/tuning.gif)
 
 ```tsx
 {/* Subtle ambient flicker behind content */}
