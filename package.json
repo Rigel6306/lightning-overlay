@@ -1,6 +1,6 @@
 {
   "name": "lightning-overlay",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "author": "charitha/rigel6306",
   "description": "Procedural, physically inspired lightning for React and Next apps. Canvas 2D, three strike types, Web Audio thunder, no runtime dependencies.",
@@ -35,12 +35,10 @@
     "vite": "^8.3.6",
     "vite-plugin-dts": "^5.1.2"
   },
-
-    "repository": {
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/Rigel6306/lightning-overlay.git"
   },
-
   "keywords": [
     "lightning",
     "lightning-effect",
