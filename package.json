@@ -22,7 +22,7 @@
       "require": "./dist/index.cjs"
     }
   },
-  "dependencies": {
+  "peerDependencies": {
     "react": "^18.0.0 || ^19.0.0",
     "react-dom": "^18.0.0 || ^19.0.0"
   },
@@ -35,6 +35,12 @@
     "vite": "^8.3.6",
     "vite-plugin-dts": "^5.1.2"
   },
+
+    "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rigel6306/lightning-overlay.git"
+  },
+
   "keywords": [
     "lightning",
     "lightning-effect",

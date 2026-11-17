@@ -1,0 +1,53 @@
+name: patch and publish to the npm
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+  id-token: write
+
+jobs:
+  publish:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    environment: npm-publish
+
+    steps:
+      - name: Checkout to repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+          registry-url: "https://registry.npmjs.org"
+          cache: "npm"
+
+      - name: Ensure latest npm for trusted publishing
+        run: npm i -g npm@latest
+
+      - name: Clean install dependencies
+        run: npm ci
+
+      - name: Build the package
+        run: npm run Build
+
+      - name: Configure Git user
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      
+      - name: Bumpt the patch node-version  
+        run: |
+          npm version patch -m "chore(release): %s [skip ci]"
+      
+      - name: publish to npm
+        run: npm publish --provenance --access public
+      
+      - name: push version bump & tag to github-actions
+        run: git push --follow-tags
