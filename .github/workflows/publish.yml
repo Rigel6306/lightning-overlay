@@ -35,7 +35,7 @@ jobs:
         run: npm ci
 
       - name: Build the package
-        run: npm run Build
+        run: npm run build
 
       - name: Configure Git user
         run: |
